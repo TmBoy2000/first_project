@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    
+}
+ #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50vh;
+    height: 93vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    flex-wrap: nowrap;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+ #first{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+    background: linear-gradient(135deg, #352feb, rgb(7, 47, 200));
+    width: 45vh;
+    border-radius: 0px 0px 50px 50px;
+    gap: 10px;
+}
+
+.word1{
+    font-size: 20px;
+    align-content: center;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(150deg, #2723a1,rgb(71, 52, 240));
+    border-radius: 100%;
+    width: 20vh;
+    height: 20vh;
+}
+#number1{
+    font-weight: bold;
+    font-size: 46px;
+    margin: 0px;
+}
+#number2 {
+    font-size: 14px;
+    margin: 0px;
+}
+
+#word2{
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+}
+#texst{
+    margin: 0px;
+    text-align: center;
+    
+}
+              /* SECOND */
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    font-weight: bold;
+    margin-right: 7%;
+    width: 45vh;
+    border-radius: 30px;
+
+}
+.sum{
+    font-size: larger;
+    margin: 2%;
+    margin-left: 10%;
+    align-self: flex-start;
+}
+
+.reaction{
+    margin: 2%;
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-around;
+    width: 42vh;
+    border-radius: 5px;
+    background-color: rgb(255, 246, 245);
+}
+.red{
+    color: red;
+}
+.memory{
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+    width: 42vh;
+    border-radius: 5px;
+    background-color: rgb(255, 251, 242);
+}
+.yellow{
+    color: yellow;
+}
+.verbal{
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+    width: 42vh;
+    border-radius: 5px;
+    background-color: rgb(242, 251, 250);
+}
+.green{
+    color: green;
+}
+.visual{
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+    width: 42vh;
+    border-radius: 5px;
+    background-color: rgb(243, 243, 253);
+}
+.blue{
+    color: blue;
+}
+.btn{
+    color: #fff;
+    background-color: rgb(12, 47, 204);
+    margin: 4%;
+    padding: 10px 30px;
+    width: 40vh;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px rgba(242, 239, 239, 0.1);
+}
+.btn:hover{
+    background-color: rgb(11, 11, 11);
+}
+
+.grey{
+    color: rgb(205, 195, 255);
+} 
